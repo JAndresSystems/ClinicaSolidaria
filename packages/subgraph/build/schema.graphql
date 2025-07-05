@@ -1,0 +1,8 @@
+type Donacion @entity(immutable: true) {
+  id: ID!
+  idTransaccion: Bytes!
+  donante: Bytes!
+  cantidad: BigInt!
+  fecha: BigInt!
+  mensaje: String!
+}

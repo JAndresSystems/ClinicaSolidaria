@@ -1,0 +1,207 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+body {
+  color: #e2e8f0;
+  background-color: #0f172a;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+.contenedor-principal {
+  max-width: 896px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 2rem;
+}
+
+header {
+  z-index: 50;
+  backdrop-filter: blur(16px);
+  background-color: #0f172a80;
+  border-bottom: 1px solid #334155;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header h1 span {
+  color: #22d3ee;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.seccion-titulo {
+  text-align: center;
+}
+
+.seccion-titulo h2 {
+  letter-spacing: -.025em;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.seccion-titulo h2 span {
+  color: #22d3ee;
+}
+
+.seccion-titulo p {
+  color: #94a3b8;
+  max-width: 672px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+}
+
+.grid-principal {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+  display: grid;
+}
+
+@media (width >= 1024px) {
+  .grid-principal {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .columna-formulario {
+    grid-column: span 1 / span 1;
+  }
+
+  .columna-datos {
+    grid-column: span 2 / span 2;
+  }
+}
+
+.panel-formulario {
+  background-color: #1e293b80;
+  border: 1px solid #334155;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.panel-formulario h3, .panel-info h3, .historial h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.panel-formulario form {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.panel-formulario label {
+  color: #cbd5e1;
+  margin-bottom: .25rem;
+  font-size: .875rem;
+  font-weight: 500;
+  display: block;
+}
+
+.panel-formulario input {
+  color: #fff;
+  background-color: #020617;
+  border: 1px solid #475569;
+  border-radius: .375rem;
+  width: 95%;
+  padding: .5rem .75rem;
+  display: block;
+}
+
+.panel-formulario button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0891b2;
+  border: 1px solid #0000;
+  border-radius: .375rem;
+  width: 100%;
+  padding: .5rem 1rem;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.panel-formulario button:hover {
+  background-color: #0e7490;
+}
+
+.panel-formulario button:disabled {
+  cursor: not-allowed;
+  background-color: #475569;
+}
+
+.mensaje-exito {
+  color: #4ade80;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.panel-info {
+  text-align: center;
+  background-color: #1e293b80;
+  border: 1px solid #334155;
+  border-radius: .5rem;
+  padding: 1.5rem;
+}
+
+.historial {
+  margin-top: 3rem;
+}
+
+.tabla-contenedor {
+  background-color: #1e293b80;
+  border: 1px solid #334155;
+  border-radius: .5rem;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+th, td {
+  text-align: left;
+  white-space: nowrap;
+  padding: 1rem 1.5rem;
+  font-size: .875rem;
+}
+
+thead {
+  background-color: #1e293b;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #94a3b8;
+}
+
+tbody {
+  divide-y: 1px solid #1e293b;
+  background-color: #0f172a;
+}
+
+td {
+  color: #94a3b8;
+  font-family: monospace;
+}
+
+td.cantidad {
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_app_globals_css_f9ee138c._.single.css.map*/

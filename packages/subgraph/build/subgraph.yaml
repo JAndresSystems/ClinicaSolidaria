@@ -1,0 +1,29 @@
+specVersion: 1.3.0
+indexerHints:
+  prune: auto
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Clinica
+    network: sepolia
+    source:
+      address: "0xaE788cc38111463A3cd5bDC6769771d7737d96E3"
+      abi: Clinica
+      startBlock: 8533974
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.9
+      language: wasm/assemblyscript
+      entities:
+        - DonacionRecibida
+        - OwnershipTransferred
+        - Paused
+        - Unpaused
+      abis:
+        - name: Clinica
+          file: Clinica\Clinica.json
+      eventHandlers:
+        - event: DonacionRecibida(indexed uint256,indexed address,uint256,uint256,string)
+          handler: handleDonacionRecibida
+      file: Clinica\Clinica.wasm
