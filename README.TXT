@@ -1,17 +1,6 @@
-<div align="center">
+\# ClinicaSolidaria ### Empowering Transparent and Secure Donations through Blockchain Technology. [![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://github.com/yourusername/ClinicaSolidaria/actions) [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub Stars](https://img.shields.io/github/stars/yourusername/ClinicaSolidaria?style=flat-square&color=yellow)](https://github.com/yourusername/ClinicaSolidaria/stargazers)
 
-# ClinicaSolidaria
-
-### Empowering Transparent and Secure Donations through Blockchain Technology.
-
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://github.com/yourusername/ClinicaSolidaria/actions)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ClinicaSolidaria?style=flat-square&color=yellow)](https://github.com/yourusername/ClinicaSolidaria/stargazers)
-
-</div>
-
----
+- - -
 
 ## The Strategic "Why"
 
@@ -34,12 +23,12 @@ ClinicaSolidaria is built on a robust and modern technology stack, designed for 
 
 ### Tech Stack
 
-| Technology   | Purpose                                 | Key Benefit                                  |
-| :----------- | :-------------------------------------- | :------------------------------------------- |
+| Technology | Purpose | Key Benefit |
+| --- | --- | --- |
 | **JavaScript** | Core programming language for dApp logic | Versatility, broad adoption, client/server use |
-| **Node.js**    | JavaScript runtime environment          | Server-side logic, package management        |
-| **Blockchain** | Underlying distributed ledger technology | Transparency, immutability, security         |
-| **dApp**       | Decentralized Application architecture  | Censorship resistance, trustless operation   |
+| **Node.js** | JavaScript runtime environment | Server-side logic, package management |
+| **Blockchain** | Underlying distributed ledger technology | Transparency, immutability, security |
+| **dApp** | Decentralized Application architecture | Censorship resistance, trustless operation |
 
 ### Directory Structure
 
@@ -59,7 +48,7 @@ ClinicaSolidaria/
     └── <other-modules>/
 ```
 
-*(Note: The `packages` directory structure is inferred and represents a common monorepo pattern for dApps, where different components like frontend, smart contracts, and shared utilities reside in separate sub-packages.)*
+_(Note: The `packages` directory structure is inferred and represents a common monorepo pattern for dApps, where different components like frontend, smart contracts, and shared utilities reside in separate sub-packages.)_
 
 ## Operational Setup
 
@@ -75,32 +64,33 @@ Ensure you have the following installed:
 ### Installation
 
 1.  **Clone the repository:**
-
-    ```bash
+    
+    ```
     git clone https://github.com/yourusername/ClinicaSolidaria.git
     cd ClinicaSolidaria
     ```
-
+    
 2.  **Install dependencies:**
-
-    ```bash
+    
+    ```
     npm install
     # or if using yarn:
     # yarn install
     # or if using pnpm:
     # pnpm install
     ```
-
+    
 3.  **Run the application:**
-
-    *(Specific run commands will depend on the internal structure of the `packages` directory, e.g., `npm run start-frontend`, `npm run deploy-contracts`. A general starting point for a dApp might involve a local blockchain like Hardhat or Ganache.)*
-
-    ```bash
+    
+    _(Specific run commands will depend on the internal structure of the `packages` directory, e.g., `npm run start-frontend`, `npm run deploy-contracts`. A general starting point for a dApp might involve a local blockchain like Hardhat or Ganache.)_
+    
+    ```
     # Example: Start a local development server or deploy contracts
     npm run dev
     # or if your package.json has a 'start' script for the main app
     # npm start
     ```
+    
 
 ### Environment Configuration
 
@@ -108,7 +98,7 @@ This project may require environment variables for connecting to specific blockc
 
 Typically, you would create a `.env` file in the root or relevant package directory based on a provided `.env.example` (if available) and populate it with your specific settings:
 
-```plaintext
+```
 # Example .env content
 # BLOCKCHAIN_NETWORK_URL=http://localhost:8545
 # PRIVATE_KEY=YOUR_PRIVATE_KEY_FOR_DEPLOYMENT
