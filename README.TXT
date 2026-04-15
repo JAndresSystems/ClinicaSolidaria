@@ -1,20 +1,4 @@
-<p align="center">
-  <h1>ClinicaSolidaria</h1>
-  <em>Donaciones transparentes y seguras impulsadas por la tecnología blockchain.</em>
-  <br>
-  <a href="https://github.com/your-username/ClinicaSolidaria/actions/workflows/main.yml">
-    <img src="https://img.shields.io/badge/Estado-Activo-brightgreen?style=for-the-badge" alt="Estado del Proyecto">
-  </a>
-  <a href="https://github.com/your-username/ClinicaSolidaria/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/Licencia-MIT-blue.svg?style=for-the-badge" alt="Licencia MIT">
-  </a>
-  <a href="https://github.com/your-username/ClinicaSolidaria/pulls">
-    <img src="https://img.shields.io/badge/PRs-Bienvenidas-ff69b4.svg?style=for-the-badge" alt="Pull Requests Bienvenidas">
-  </a>
-  <a href="https://github.com/your-username/ClinicaSolidaria/stargazers">
-    <img src="https://img.shields.io/github/stars/your-username/ClinicaSolidaria.svg?style=for-the-badge&color=yellow" alt="Estrellas de GitHub">
-  </a>
-</p>
+
 
 ---
 
