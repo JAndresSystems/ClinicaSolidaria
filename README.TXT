@@ -8,15 +8,6 @@
   <img src="https://img.shields.io/github/stars/JAndresSystems/ClinicaSolidaria.svg?style=for-the-badge&color=yellow" alt="Estrellas">
 </div>
 
----
-
-### ⚙️ Instalación
-
-1.  **Clonar el Repositorio**:
-    ```bash
-    git clone https://github.com/JAndresSystems/ClinicaSolidaria.git
-    cd ClinicaSolidaria
-    ```
 
 ---
 
