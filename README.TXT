@@ -1,58 +1,44 @@
 <p align="center">
-
-# ClinicaSolidaria
-
-Donaciones transparentes y seguras para causas solidarias, impulsadas por la tecnología blockchain.
-
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Build-Passing-brightgreen" alt="Build Status"/>
-  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License"/>
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs Welcome"/>
-  <img src="https://img.shields.io/github/stars/your-username/ClinicaSolidaria?style=social" alt="GitHub Stars"/>
+  <h1>ClinicaSolidaria</h1>
+  <p>Donaciones seguras y transparentes con el poder de la blockchain.</p>
+  <p>
+    <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+    <a href="#"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <a href="https://github.com/ClinicaSolidaria/ClinicaSolidaria"><img src="https://img.shields.io/github/stars/ClinicaSolidaria/ClinicaSolidaria?style=social" alt="GitHub Stars"></a>
+  </p>
 </p>
 
 ---
 
-## 🎯 El "Porqué" Estratégico
+## El "Porqué" Estratégico
 
-> ### El Problema
->
-> La desconfianza en la gestión de fondos benéficos y la falta de transparencia en las donaciones son obstáculos significativos que impiden que las causas solidarias reciban el apoyo que necesitan. Los donantes a menudo dudan si su dinero llegará realmente a quienes lo necesitan y si será utilizado de manera efectiva, lo que genera reticencia y reduce el impacto potencial de la filantropía.
+> La desconfianza en la gestión de donaciones es un obstáculo común. La opacidad en el uso de fondos, la falta de trazabilidad y la dependencia de intermediarios disuaden a potenciales donantes y limitan el impacto de las causas benéficas. Este problema fundamental erosiona la fe en la filantropía y dificulta la movilización de recursos para quienes más los necesitan.
 
-> ### La Solución
->
-> **ClinicaSolidaria** aborda estos desafíos ofreciendo una plataforma de donaciones descentralizada (dApp) construida sobre tecnología blockchain. Garantiza que cada donación sea inmutable, verificable y completamente transparente, desde el momento en que se realiza hasta su eventual uso. Al eliminar intermediarios y registrar cada transacción en un libro mayor público, ClinicaSolidaria restaura la confianza del donante, empodera a las organizaciones para recibir apoyo con integridad y maximiza el impacto de cada contribución.
+ClinicaSolidaria emerge como una solución innovadora y crucial, aprovechando la tecnología blockchain para establecer un ecosistema de donaciones totalmente transparente y seguro. Aquí, cada contribución es registrada de forma inmutable en un libro mayor distribuido, permitiendo a los donantes verificar el destino de sus fondos con total claridad. Al eliminar la necesidad de intermediarios y garantizar la integridad de cada transacción, ClinicaSolidaria restaura la confianza en la filantropía digital y maximiza el impacto de cada acto de generosidad.
 
----
+## Características Clave
 
-## ✨ Características Clave
+*   ✅ **Donaciones Seguras e Inmutables**: Todas las transacciones se registran en la blockchain, garantizando que cada donación sea criptográficamente segura y no pueda ser alterada una vez realizada.
+*   🔍 **Transparencia Total**: Cada movimiento de fondos es público y verificable por cualquier persona, eliminando dudas sobre la gestión y el uso de las contribuciones.
+*   📈 **Trazabilidad Completa**: Los donantes pueden seguir el recorrido de sus contribuciones desde el origen hasta su impacto final en la causa benéfica, proporcionando una visibilidad sin precedentes.
+*   🌐 **Acceso Universal y Descentralizado**: La plataforma es accesible globalmente sin depender de una autoridad central, democratizando la participación en causas solidarias.
+*   💸 **Reducción de Intermediarios**: Minimiza los costes operativos y las comisiones, asegurando que una mayor proporción de los fondos donados llegue directamente a los beneficiarios.
+*   🤝 **Fomento de la Confianza**: Construye una comunidad de donantes y beneficiarios basada en la honestidad, la rendición de cuentas y la verificación pública de cada acto de bondad.
 
-*   **🛡️ Donaciones Seguras**: Utiliza contratos inteligentes inmutables para proteger cada transacción, garantizando la integridad de los fondos.
-*   **✨ Transparencia Total**: Todas las donaciones y movimientos de fondos se registran en la blockchain, siendo públicamente verificables y auditables.
-*   **🔍 Trazabilidad de Fondos**: Los donantes pueden seguir el recorrido completo de sus contribuciones, desde el envío hasta la recepción y el uso final.
-*   **🌍 Acceso Global y Sin Fronteras**: Permite realizar y recibir donaciones desde cualquier parte del mundo, eliminando barreras geográficas y burocráticas.
-*   **🚀 Interfaz Intuitiva**: Diseñada para una experiencia de usuario sencilla y accesible, facilitando el proceso de donación para todos.
-*   **💰 Impacto Directo**: Minimiza las tarifas y los gastos administrativos, asegurando que un mayor porcentaje de la donación llegue directamente a la causa.
-
----
-
-## 🏗️ Arquitectura Técnica
+## Arquitectura Técnica
 
 ### Pila Tecnológica
 
-| Tecnología                  | Propósito                                     | Beneficio Clave                                   |
-| :--------------------------- | :-------------------------------------------- | :------------------------------------------------ |
-| **Blockchain** (ej. Ethereum) | Ledger inmutable y descentralizado            | Transparencia, seguridad, resistencia a la censura |
-| **Contratos Inteligentes**   | Lógica de negocio auto-ejecutable y verificable | Automatización, confianza sin intermediarios      |
-| **JavaScript / Node.js**     | Lógica de la aplicación (backend y frontend)  | Versatilidad, gran ecosistema, desarrollo rápido  |
-| **Web3.js / Ethers.js**      | Interacción con la blockchain                 | Conectividad fluida entre dApp y red blockchain   |
-| **Framework Frontend**       | Interfaz de usuario interactiva               | Experiencia de usuario dinámica y responsiva      |
+| Tecnología                | Propósito                                                | Beneficio Clave                                   |
+| :------------------------- | :------------------------------------------------------- | :------------------------------------------------ |
+| **JavaScript**             | Lógica de la aplicación (frontend y backend)             | Flexibilidad, amplio ecosistema de desarrollo     |
+| **Node.js**                | Entorno de ejecución de JavaScript en el servidor        | Escalabilidad, rendimiento asíncrono              |
+| **Blockchain (EVM-compatible)** | Base de datos distribuida e inmutable para transacciones | Seguridad, transparencia, descentralización      |
+| **Smart Contracts**        | Lógica de donación y gestión de fondos en la blockchain  | Automatización, confianza sin intermediarios      |
+| **npm/yarn/pnpm**          | Gestión de paquetes y dependencias                       | Estandarización del desarrollo, fácil escalabilidad |
 
-### Estructura de Directorios (Parcial)
-
-La siguiente es una representación del esqueleto del proyecto, basada en los archivos detectados:
+### Estructura de Directorios
 
 ```
 📁 ClinicaSolidaria/
@@ -63,81 +49,48 @@ La siguiente es una representación del esqueleto del proyecto, basada en los ar
 └── 📁 packages/
 ```
 
----
-
-## ⚙️ Configuración Operacional
+## Configuración Operacional
 
 ### Prerrequisitos
 
-Para ejecutar este proyecto localmente, necesitarás tener instalado lo siguiente:
+Para ejecutar ClinicaSolidaria localmente, necesitarás tener instalado lo siguiente:
 
-*   **Node.js**: Se recomienda la versión LTS más reciente. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
-*   **npm** (Node Package Manager) o **Yarn / pnpm**: npm se instala automáticamente con Node.js.
-*   **Un navegador web con extensión de monedero Web3**: Por ejemplo, [MetaMask](https://metamask.io/).
+*   **Node.js**: Versión 16.x o superior recomendada.
+*   **npm, yarn o pnpm**: Se recomienda la última versión estable de cualquiera de estos gestores de paquetes.
+*   **Un navegador web compatible con MetaMask o un proveedor de Web3**: Para interactuar con la dApp y realizar transacciones en la blockchain.
 
 ### Instalación
 
-Sigue estos pasos para poner en marcha el proyecto:
+Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 
-1.  **Clona el repositorio:**
-    ```bash
-    git clone https://github.com/your-username/ClinicaSolidaria.git
-    ```
-2.  **Navega al directorio del proyecto:**
-    ```bash
-    cd ClinicaSolidaria
-    ```
-3.  **Instala las dependencias del proyecto:**
-    ```bash
-    npm install
-    # o si usas Yarn
-    # yarn install
-    # o si usas pnpm
-    # pnpm install
-    ```
-4.  **Inicia la aplicación (ejemplo, puede variar):**
-    ```bash
-    npm start
-    # o consulta la documentación del proyecto si existe un script de inicio diferente
-    ```
+```bash
+# 1. Clona el repositorio de ClinicaSolidaria
+git clone https://github.com/ClinicaSolidaria/ClinicaSolidaria.git
 
-### Configuración del Entorno
+# 2. Navega al directorio del proyecto
+cd ClinicaSolidaria
 
-No se detectaron archivos de configuración de entorno (`.env`) en el manifiesto inicial. Si el proyecto requiere variables de entorno (por ejemplo, claves API, configuraciones de red blockchain), consulta la documentación interna del proyecto o el código fuente para obtener instrucciones de configuración específicas.
+# 3. Instala las dependencias del proyecto
+# Si usas npm:
+npm install
 
----
+# O si usas yarn:
+# yarn install
 
-## 🤝 Comunidad y Gobernanza
+# O si usas pnpm:
+# pnpm install
+
+# 4. Inicia la aplicación (este comando puede variar según la configuración de la dApp)
+# Por ejemplo, para iniciar un entorno de desarrollo local blockchain y desplegar contratos:
+# npx hardhat node
+# npx hardhat run scripts/deploy.js --network localhost
+
+# Luego, para iniciar la interfaz de usuario de la dApp:
+# npm start
+```
+
+## Comunidad y Gobernanza
 
 ### Contribuciones
 
-¡Las contribuciones son lo que hacen que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear! Agradecemos enormemente cualquier contribución que hagas.
-
-Si tienes sugerencias para mejorar, reportes de errores o deseas añadir nuevas características, por favor, sigue estos pasos:
-
-1.  **Haz un "fork"** del repositorio.
-2.  **Crea una nueva rama** para tu característica (`git checkout -b feature/AmazingFeature`).
-3.  **Realiza tus cambios** y haz commits descriptivos (`git commit -m 'Add some AmazingFeature'`).
-4.  **Empuja tus cambios** a tu rama (`git push origin feature/AmazingFeature`).
-5.  **Abre un Pull Request** detallando tus cambios y el valor que aportan.
-
-### Licencia
-
-Este proyecto se distribuye bajo la **Licencia MIT**. Esto significa que eres libre de usar, modificar y distribuir el software, tanto para fines comerciales como no comerciales, siempre y cuando se incluya la atribución original de la licencia.
-
-Para más información, consulta el archivo `LICENSE` en la raíz del repositorio.
-
-**Permisos:**
-*   Uso comercial
-*   Modificación
-*   Distribución
-*   Uso privado
-
-**Limitaciones:**
-*   Responsabilidad
-*   Garantía
-
-**Condiciones:**
-*   Inclusión de la licencia y el aviso de copyright.
-
----
+¡Agradecemos enormemente cualquier contribución a ClinicaSolidaria! Tu ayuda es
