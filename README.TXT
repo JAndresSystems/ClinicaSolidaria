@@ -1,3 +1,13 @@
+<p align="center">
+  <h1>asistente_legal_multimodal</h1>
+  <i>Revolucionando la asistencia legal en consultorios jurídicos colombianos con IA multimodal y arquitectura de agentes inteligentes.</i>
+  <br>
+  <br>
+  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-blue?style=for-the-badge&logo=github" alt="Estado del Proyecto">
+  <img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge&logo=github" alt="Licencia MIT">
+  <img src="https://img.shields.io/badge/Contribuciones-¡Bienvenidas!-brightgreen?style=for-the-badge&logo=github" alt="Contribuciones Bienvenidas">
+  <img src="https://img.shields.io/github/stars/tu_usuario/asistente_legal_multimodal?style=for-the-badge&logo=github" alt="Estrellas">
+</p>
 
 
 ---
