@@ -1,152 +1,159 @@
-<p align="center">
-  <h1>asistente_legal_multimodal</h1>
-  <i>Revolucionando la asistencia legal en consultorios jurídicos colombianos con IA multimodal y arquitectura de agentes inteligentes.</i>
-  <br>
-  <br>
-  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-blue?style=for-the-badge&logo=github" alt="Estado del Proyecto">
-  <img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge&logo=github" alt="Licencia MIT">
-  <img src="https://img.shields.io/badge/Contribuciones-¡Bienvenidas!-brightgreen?style=for-the-badge&logo=github" alt="Contribuciones Bienvenidas">
-  <img src="https://img.shields.io/github/stars/tu_usuario/asistente_legal_multimodal?style=for-the-badge&logo=github" alt="Estrellas">
-</p>
+<div align="center">
 
+# ClinicaSolidaria
+
+### Empowering Transparent and Secure Donations through Blockchain Technology.
+
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://github.com/yourusername/ClinicaSolidaria/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ClinicaSolidaria?style=flat-square&color=yellow)](https://github.com/yourusername/ClinicaSolidaria/stargazers)
+
+</div>
 
 ---
 
-## 🎯 El Porqué Estratégico
+## The Strategic "Why"
 
-> La desconfianza en la gestión de fondos benéficos y la falta de transparencia en los procesos de donación son barreras significativas que impiden a muchas personas contribuir a causas importantes. La opacidad de los intermediarios y la falta de un registro inmutable de las transacciones erosionan la fe pública, limitando el impacto potencial de la filantropía.
+> The traditional landscape of charitable donations often faces challenges related to trust, transparency, and efficiency. Donors frequently lack clear visibility into how their contributions are utilized, leading to skepticism and a potential decrease in philanthropic engagement. Furthermore, intermediaries and opaque processes can introduce delays and administrative overhead, diverting resources that could otherwise directly benefit the intended cause.
 
-**ClinicaSolidaria** aborda estos desafíos ofreciendo una plataforma de Aplicación Descentralizada (dApp) donde cada donación es un registro inmutable en la blockchain. Esto garantiza una trazabilidad completa y una transparencia sin precedentes, eliminando la necesidad de intermediarios y restaurando la confianza entre donantes y beneficiarios. Con ClinicaSolidaria, las contribuciones se transforman en acciones claras y verificables, maximizando el impacto social.
+ClinicaSolidaria addresses these critical pain points by leveraging the immutable and transparent nature of blockchain technology. By creating a decentralized application (dApp), we provide a verifiable and auditable platform where every donation is recorded on a public ledger. This ensures complete transparency from contribution to allocation, rebuilding donor trust and streamlining the entire philanthropic process to deliver superior outcomes for both givers and recipients.
 
-## ✨ Características Clave
+## Key Features
 
-*   **🔒 Donaciones Seguras con Blockchain**: Realiza contribuciones con la máxima seguridad, sabiendo que cada transacción es inmutable y está protegida por la criptografía.
-*   **📊 Transparencia Total**: Cada donación y su destino son visibles públicamente en la blockchain, permitiendo a los donantes verificar el uso de sus fondos en tiempo real.
-*   **🌐 Acceso Descentralizado**: Interactúa directamente con la plataforma sin necesidad de intermediarios, fomentando un ecosistema de confianza y autonomía.
-*   **🚀 Despliegue Rápido y Escalable**: Desarrollado en un entorno Node.js, el proyecto está diseñado para ser eficiente y adaptable a diversas redes blockchain.
-*   **💡 Código Abierto y Colaborativo**: Fomenta la auditoría comunitaria y la mejora continua, asegurando la integridad y evolución del proyecto.
-*   **📱 Interfaz de Usuario Intuitiva**: Diseñada para facilitar el proceso de donación, haciendo que la tecnología blockchain sea accesible para todos los usuarios.
+*   🔒 **Secure & Immutable Transactions**: All donations are recorded on the blockchain, ensuring tamper-proof and irreversible transactions that protect donor intent.
+*   📊 **Transparent Fund Tracking**: Donors can publicly track the flow of funds from their contribution to the intended cause, fostering complete accountability.
+*   🌐 **Decentralized Control**: The application operates without a central authority, reducing censorship risks and enhancing system resilience.
+*   ⚡ **Efficient & Low-Cost Giving**: Eliminates intermediaries and reduces administrative overhead, allowing a greater percentage of donations to reach the beneficiaries.
+*   🤝 **Community-Driven Philanthropy**: Fosters a trusted environment for collective giving, encouraging broader participation in charitable initiatives.
+*   💻 **User-Friendly Interface**: Designed for accessibility, making it easy for anyone to make a secure and transparent donation with minimal technical knowledge.
 
-## 🏗️ Arquitectura Técnica
+## Technical Architecture
 
-ClinicaSolidaria se construye sobre una base sólida de tecnologías modernas, aprovechando el poder de JavaScript y la descentralización para crear una solución robusta y transparente.
+ClinicaSolidaria is built on a robust and modern technology stack, designed for decentralization, security, and scalability.
 
-### Pila Tecnológica
+### Tech Stack
 
-| Tecnología       | Propósito                                             | Beneficio Clave                                   |
-| :--------------- | :---------------------------------------------------- | :------------------------------------------------ |
-| **JavaScript**   | Lenguaje de programación principal para la lógica de la dApp y contratos inteligentes. | Flexibilidad, amplio ecosistema, interoperabilidad en web3. |
-| **Node.js**      | Entorno de ejecución para el desarrollo backend, herramientas y scripts de despliegue. | Escalabilidad, rendimiento, desarrollo full-stack. |
-| **Blockchain**   | Infraestructura subyacente para transacciones descentralizadas e inmutables. | Inmutabilidad, transparencia, seguridad criptográfica. |
-| **Smart Contracts** | Lógica de negocio auto-ejecutable y verificable en la blockchain. | Automatización, confianza sin intermediarios, auditoría pública. |
-| **npm/yarn/pnpm** | Gestor de paquetes para la gestión de dependencias y scripts del proyecto. | Gestión eficiente de librerías y herramientas de desarrollo. |
+| Technology   | Purpose                                 | Key Benefit                                  |
+| :----------- | :-------------------------------------- | :------------------------------------------- |
+| **JavaScript** | Core programming language for dApp logic | Versatility, broad adoption, client/server use |
+| **Node.js**    | JavaScript runtime environment          | Server-side logic, package management        |
+| **Blockchain** | Underlying distributed ledger technology | Transparency, immutability, security         |
+| **dApp**       | Decentralized Application architecture  | Censorship resistance, trustless operation   |
 
-### Estructura de Directorios
+### Directory Structure
 
 ```
-📁 ClinicaSolidaria/
-├── 📄 .gitignore
-├── 📄 ANTERIORCODIFICACION.TXT  (Archivos de código o notas anteriores)
-├── 📄 README.TXT                (Posiblemente una versión antigua o auxiliar del README)
-├── 📄 package.json              (Metadatos del proyecto y dependencias de Node.js)
-└── 📁 packages/                 (Posiblemente un monorepo para diferentes módulos o componentes)
+ClinicaSolidaria/
+├── .gitignore
+├── ANTERIORCODIFICACION.TXT
+├── README.md
+├── README.TXT
+├── package.json
+└── packages/
+    ├── <dapp-frontend>/
+    │   ├── src/
+    │   └── public/
+    ├── <smart-contracts>/
+    │   └── contracts/
+    └── <other-modules>/
 ```
 
-## 🚀 Configuración Operacional
+*(Note: The `packages` directory structure is inferred and represents a common monorepo pattern for dApps, where different components like frontend, smart contracts, and shared utilities reside in separate sub-packages.)*
 
-Siga estos pasos para configurar y ejecutar ClinicaSolidaria en su entorno local.
+## Operational Setup
 
-### 📋 Prerrequisitos
+Follow these instructions to get ClinicaSolidaria up and running on your local machine.
 
-Asegúrese de tener instalados los siguientes elementos:
+### Prerequisites
 
-*   **Node.js**: Versión 14.x o superior.
-    *   [Descargar Node.js](https://nodejs.org/es/download/)
-*   **npm** (viene con Node.js), **Yarn** o **pnpm**: Para la gestión de paquetes.
-    *   `npm install -g yarn` o `npm install -g pnpm`
-*   **Git**: Para clonar el repositorio.
-    *   [Descargar Git](https://git-scm.com/downloads)
+Ensure you have the following installed:
 
-### ⚙️ Instalación
+*   **Node.js**: [LTS Version Recommended](https://nodejs.org/en/download/)
+*   **npm** (Node Package Manager) or **Yarn** / **pnpm**: Comes bundled with Node.js, or install separately.
 
-1.  **Clonar el Repositorio**:
+### Installation
+
+1.  **Clone the repository:**
+
     ```bash
-    git clone https://github.com/your-username/ClinicaSolidaria.git
+    git clone https://github.com/yourusername/ClinicaSolidaria.git
     cd ClinicaSolidaria
     ```
 
-2.  **Instalar Dependencias**:
-    Utilice su gestor de paquetes preferido:
+2.  **Install dependencies:**
+
     ```bash
-    # Con npm
     npm install
-
-    # Con yarn
-    yarn install
-
-    # Con pnpm
-    pnpm install
+    # or if using yarn:
+    # yarn install
+    # or if using pnpm:
+    # pnpm install
     ```
 
-3.  **Configurar un Entorno Blockchain Local (Opcional, para desarrollo)**:
-    Para el desarrollo de dApps, es común usar una blockchain local como Ganache.
-    ```bash
-    npm install -g ganache-cli
-    ganache-cli # Iniciar un servidor blockchain local
-    ```
+3.  **Run the application:**
 
-4.  **Desplegar Contratos Inteligentes (Si aplica)**:
-    Consulte los scripts en `package.json` para ver si existe un comando de despliegue. Un ejemplo común sería:
-    ```bash
-    npm run deploy
-    ```
+    *(Specific run commands will depend on the internal structure of the `packages` directory, e.g., `npm run start-frontend`, `npm run deploy-contracts`. A general starting point for a dApp might involve a local blockchain like Hardhat or Ganache.)*
 
-5.  **Iniciar la dApp**:
-    Una vez que los contratos estén desplegados y las dependencias instaladas, inicie la aplicación:
     ```bash
-    npm start
-    # O, si hay un script de desarrollo:
+    # Example: Start a local development server or deploy contracts
     npm run dev
+    # or if your package.json has a 'start' script for the main app
+    # npm start
     ```
 
-### 🌍 Configuración de Entorno
+### Environment Configuration
 
-Aunque no se liste explícitamente un archivo `.env` en el manifiesto, las dApps suelen requerir configuración de variables de entorno para:
+This project may require environment variables for connecting to specific blockchain networks, API keys, or other sensitive configurations. While no `.env` file was explicitly detected in the root, it's common practice for dApps to use them.
 
-*   Conexión a la red blockchain (ej. `GANACHE_URL`, `ROPSTEN_URL`).
-*   Claves privadas (para despliegue, **manejar con extrema precaución y nunca exponerlas públicamente**).
-*   Direcciones de contratos inteligentes desplegados.
+Typically, you would create a `.env` file in the root or relevant package directory based on a provided `.env.example` (if available) and populate it with your specific settings:
 
-Se recomienda crear un archivo `.env` en la raíz del proyecto (si no existe un `.env.example`) siguiendo las directrices de configuración interna del proyecto.
+```plaintext
+# Example .env content
+# BLOCKCHAIN_NETWORK_URL=http://localhost:8545
+# PRIVATE_KEY=YOUR_PRIVATE_KEY_FOR_DEPLOYMENT
+# ETHERSCAN_API_KEY=YOUR_ETHERSCAN_API_KEY
+```
 
-## 🤝 Comunidad y Gobernanza
+**Always keep your private keys and sensitive information secure and out of public repositories.**
 
-¡Agradecemos todas las contribuciones a ClinicaSolidaria! Su apoyo es fundamental para mejorar y expandir este proyecto.
+## Community & Governance
 
-### Contribuyendo
+ClinicaSolidaria thrives on community contributions and open collaboration. We welcome developers, designers, and enthusiasts to help us improve and expand this impactful project.
 
-Para contribuir al proyecto, siga estos pasos:
+### Contributing
 
-1.  **Haga un "fork"** del repositorio.
-2.  **Cree una nueva rama** para su característica o corrección de errores:
-    ```bash
-    git checkout -b feature/su-caracteristica-asombrosa
-    ```
-3.  **Realice sus cambios** y asegúrese de que el código pase todas las pruebas.
-4.  **Haga "commit"** de sus cambios con un mensaje claro y descriptivo:
-    ```bash
-    git commit -m "feat: añade [su característica] o fix: corrige [el error]"
-    ```
-5.  **Suba su rama** al repositorio "forkeado":
-    ```bash
-    git push origin feature/su-caracteristica-asombrosa
-    ```
-6.  **Abra un "Pull Request" (PR)** a la rama `main` del repositorio original.
-    *   Describa claramente los cambios propuestos y el problema que resuelven.
-    *   Asegúrese de que su código siga las guías de estilo del proyecto.
+We encourage you to contribute to ClinicaSolidaria! Here's how you can help:
 
-### Licencia
+1.  **Fork** the repository on GitHub.
+2.  **Clone** your forked repository to your local machine.
+3.  **Create a new branch** for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/issue-description`.
+4.  **Make your changes** and commit them with clear, concise messages.
+5.  **Push your branch** to your forked repository.
+6.  **Open a Pull Request** to the `main` branch of the original ClinicaSolidaria repository, describing your changes in detail.
 
-Este proyecto está bajo la **Licencia MIT**. Esto significa que es de código abierto y usted es libre de usar, modificar y distribuir el software, siempre que se incluya la nota de copyright y el aviso de permiso.
+Please ensure your code adheres to the project's coding standards and includes relevant tests if applicable.
 
-Consulte el archivo `LICENSE` en la raíz del repositorio para obtener los detalles completos de la licencia.
+### License
+
+This project is licensed under the **MIT License**.
+
+A copy of the MIT License can be found in the `LICENSE` file in the root of this repository.
+
+**Summary of Permissions:**
+
+*   **Commercial Use**: Allowed
+*   **Modification**: Allowed
+*   **Distribution**: Allowed
+*   **Private Use**: Allowed
+
+**Summary of Conditions:**
+
+*   **License and copyright notice**: Must be included with the software.
+
+**Summary of Limitations:**
+
+*   **Liability**: Software is provided "as is" without warranty.
+*   **Trademark use**: Not granted.
+
+For the full legal text, please refer to the `LICENSE` file.
